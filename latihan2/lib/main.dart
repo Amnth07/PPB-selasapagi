@@ -42,36 +42,31 @@ class _MyHomePageState extends State<MyHomePage> {
         title: Text('Tetap semangat dan jangan menyerah:)'),
       ),
       body: Column(
-        child: Container(
-          children: [
-            Container(
-              height: 500,
-              width: double.infinity,
-              decoration: BoxDecoration(
-                color: Colors.blue,
-              ),
-              child: Column(
-                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                children: [
-                  Text('NPM:011200012'),
-                  Text('Nama :Amin Tohari'),
-                  Text('Jenis kelamin: laki laki'),
-                  Text('Prodi: Informatika'),
-                  Text('No Hp: 082282620175'),
-                  Text('E-mail: Amint817@gmail.com'),
-                ],
-              ),
+        children: [
+          Container(
+            height: 500,
+            width: double.infinity,
+            decoration: BoxDecoration(
+              color: Colors.blue,
             ),
-            ],
-        
-            Container(
-              height: 200,
-              width: double.infinity,
-              decoration: BoxDecoration(
-                color: Colors.red
-              ),
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+              children: [
+                Text('NPM:011200012'),
+                Text('Nama :Amin Tohari'),
+                Text('Jenis kelamin: laki laki'),
+                Text('Prodi: Informatika'),
+                Text('No Hp: 082282620175'),
+                Text('E-mail: Amint817@gmail.com'),
+              ],
             ),
-        ),
+          ),
+          Container(
+            height: 200,
+            width: double.infinity,
+            decoration: BoxDecoration(color: Colors.red),
+          ),
+        ],
       ),
     );
   }
