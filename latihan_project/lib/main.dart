@@ -1,6 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:latihan_project/pages/menuitemlist.dart';
 import 'pages/myactionbutton.dart';
 import 'pages/mybottombar.dart';
+import 'pages/foodlistview.dart';
+import 'pages/itemcard.dart';
+import 'pages/selecttypesection.dart';
+import 'pages/myappbar.dart';
 
 void main() {
   runApp(const MyApp());
@@ -36,13 +41,13 @@ class ProjectPage extends StatelessWidget {
         child: ListView(
           children: [
             SizedBox(height: 16.0,),
-              MyappBar(),
+              MyAppBar(),
             SizedBox(height: 16.0,),
               FoodListView(),
             SizedBox(height: 16.0,),
               SelectTypeSection(),
             SizedBox(height: 16.0,),
-              MenuItemList(),
+              MenuItemsList(),
           ],
         ),
 
